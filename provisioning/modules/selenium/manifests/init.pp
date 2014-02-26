@@ -94,6 +94,7 @@ class selenium(
 
   user { $user:
     gid  => $group,
+    home => $install_root,
   }
   group { $group:
     ensure => present,
