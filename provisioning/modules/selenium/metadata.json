@@ -1,0 +1,54 @@
+{
+  "name": "jhoblitt-selenium",
+  "version": "0.2.0",
+  "source": "https://github.com/jhoblitt/puppet-selenium.git",
+  "author": "Joshua Hoblitt <jhoblitt@cpan.org>",
+  "license": "Apache",
+  "summary": "Manages Selenium Server 2 - Standalone and Grid",
+  "description": "Manages Selenium Server 2 - Standalone and Grid",
+  "project_page": "https://github.com/jhoblitt/puppet-selenium",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.0.0"
+    },
+    {
+      "name": "maestrodev/wget",
+      "version_requirement": ">= 1.2.2"
+    },
+    {
+      "name": "rodjek/logrotate",
+      "version_requirement": ">= 1.1.1"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG.md": "cbf1e8b6d31ebcacc8c7ebd2b86cd05c",
+    "Gemfile": "4913ea77d24adc6a1997c2b3c28989ae",
+    "Gemfile.lock": "74877523e7bba6b0ef6796fe27e7c819",
+    "LICENSE": "9247efe426cbee11eb63f85001ee5377",
+    "Modulefile": "d28f95b302d992adfaf9ee7f49ab0efe",
+    "README.md": "8cb9c3fa366cc6f78dc70b13c37a2d17",
+    "Rakefile": "a5e0d8d5537d3d3e9684f21259e9eed1",
+    "manifests/config.pp": "0f148baccec110b4968db8664d0e2068",
+    "manifests/hub.pp": "4044f8326ad7e63a138cbd2b01ad90d1",
+    "manifests/init.pp": "4461db855b0eb3d5a6e2831b289cb840",
+    "manifests/node.pp": "4f4e252944d3bbe786564c992e7723bc",
+    "manifests/params.pp": "646d97fc804aed47ef010e73d28c4ebd",
+    "manifests/server.pp": "72871c3c57484c2011455421e82d5e06",
+    "spec/classes/selenium_hub_spec.rb": "243a49a8946d578702a98dd5d108ea2d",
+    "spec/classes/selenium_node_spec.rb": "83be24611ff7b3bc578e22f71d52adaa",
+    "spec/classes/selenium_params_spec.rb": "d96603f2387ecf52cda61adb7462fbf7",
+    "spec/classes/selenium_server_spec.rb": "19193d08732d07b1baf399351206e46f",
+    "spec/classes/selenium_spec.rb": "c6430a64f5d344d583cd699c034ec06f",
+    "spec/defines/selenium_config_spec.rb": "291c207c34dea89f441a613ddbeea79c",
+    "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+    "spec/spec_helper_system.rb": "8f0f05d4689caf79504ffc547c8469e7",
+    "spec/system/selenium_hub_spec.rb": "a3ff907a04e082a1e126ea11c8d3990a",
+    "spec/system/selenium_node_spec.rb": "e65a948cbdfa2b0b986c726e9dc0f2e0",
+    "spec/system/selenium_spec.rb": "a3430c4b6219f0eda26b8e1daf97ba90",
+    "templates/init.d/selenium.erb": "8e498820f85ec25da770959dd3e6d53e"
+  }
+}
